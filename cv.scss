@@ -1,0 +1,148 @@
+$color-1 : rgb(43, 42, 48);
+$color-2 : rgb(243, 213, 157);
+
+body {
+    display: flex;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.profil-skills-container {
+    width: 30%;
+    background-color: $color-1;
+
+    .img-container {
+        width: 70%;
+        // height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 2px solid black;
+        margin: 20px auto;
+    }
+    img {
+        width: 100%;
+    }
+    h3 {
+        color: $color-2;
+        padding: 10px;
+        border: 2px solid $color-2;
+        margin: 20px;
+    }
+    .icon-container {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        margin: 10px 22px;
+        font-size: 16px;
+    }
+    .icon {
+        margin: 5px 0;
+    }
+    i {
+        display: flex;
+    }
+    .profil-information {
+        margin: 0 0 0 15px;
+        font-weight: 400;
+    }
+    .languages-container {
+        color: white;
+
+        .html, .css, .sass, .js, .vue, .react, .node {
+            margin: 5px 23px;
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+
+            span {
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+        .html, .css {
+            .dot-1, .dot-2, .dot-3, .dot-4{
+                color: $color-2;
+            }
+        }
+        .sass, .js, .node {
+            .dot-1, .dot-2, .dot-3{
+                color: $color-2;
+            }
+        }
+        .vue, .react {
+            .dot-1, .dot-2{
+                color: $color-2;
+            }
+        }
+        .dot-container {
+            display: flex;
+            margin: 0 20px 0 10px;
+
+            i {
+                margin: 0 5px;
+            }
+        }
+    }
+    .skills-container {
+        color: white;
+
+        .text-skills {
+            display: flex;
+            flex-direction: column;
+            margin: 0 23px;
+
+            .text-skills-paragraph {
+                margin: 5px 0;
+            }
+        }
+    }
+}
+.experience-container {
+    width: 70%;
+
+    .header-container {
+        background-color: $color-2;
+        width: 100%;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    
+        h1 {
+            border: 2px solid black;
+            padding: 25px 40px;
+            width: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1;
+            position: relative;
+        }
+        .dev-web {
+            position: absolute;
+            z-index: 2;
+            bottom: 35px;
+            background-color: $color-2;
+            padding: 0 15px;
+            font-size: 20px;
+        }
+    }
+    .formation-experience-container {
+        width: 100%;
+
+        .line_bellow{
+            width: 70%;
+            margin: 0 0 20px 15px;
+        
+                & hr{
+                    height: 3px;
+                    background-color: $color-2;
+                    border: none;
+                }
+        }
+    }
+    
+    
+}
