@@ -59,6 +59,11 @@ body {
   font-weight: 400;
 }
 
+.profil-skills-container .profil-information a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .profil-skills-container .languages-container {
   color: white;
 }
