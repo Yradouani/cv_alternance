@@ -202,6 +202,7 @@ body {
 
 .experience-container .formation-experience-container .experiences p {
   margin: 20px 40px;
+  line-height: 25px;
 }
 
 .experience-container .formation-experience-container .experiences .text-container {
@@ -211,10 +212,15 @@ body {
   position: relative;
 }
 
+.experience-container .formation-experience-container .experiences .text-container .date span {
+  border: 1px solid #2b2a30;
+  padding: 5px 20px;
+}
+
 .experience-container .formation-experience-container .experiences .text-container .date-2 {
   position: absolute;
   left: 0;
-  top: 155px;
+  top: 182px;
 }
 
 .experience-container .formation-experience-container .experiences .text-container .experience-title {
@@ -227,11 +233,36 @@ body {
 
 .experience-container .formation-experience-container .line_bellow {
   width: 70%;
-  margin: 0 0 20px 0;
+  margin: 0 0 40px 0;
 }
 
 .experience-container .formation-experience-container .line_bellow hr {
   height: 3px;
   background-color: #f3d59d;
   border: none;
+}
+
+.experience-container .formation-experience-container .line_bellow .hr-2 {
+  height: 2.5px;
+}
+
+.experience-container .formation-experience-container .formation {
+  line-height: 35px;
+}
+
+.experience-container .formation-experience-container .formation .date {
+  font-weight: bold;
+  border: 1px solid #2b2a30;
+  padding: 5px 20px;
+  margin-right: 20px;
+}
+
+.experience-container .formation-experience-container .formation .formation-text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.experience-container .formation-experience-container .formation p {
+  font-weight: bold;
 }

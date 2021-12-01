@@ -158,15 +158,22 @@ body {
             }
             p {
                 margin: 20px 40px;
+                line-height: 25px;
             }
             .text-container {
                 display: flex;
                 position: relative;
-
+                .date {
+                    span {
+                        border: 1px solid $color-1;
+                        padding: 5px 20px;
+                        
+                    }
+                }
                 .date-2 {
                     position: absolute;
                     left: 0;
-                    top: 155px;
+                    top: 182px;
                 }
                 .experience-title {
                     margin: 0 40px;
@@ -179,13 +186,32 @@ body {
 
         .line_bellow{
             width: 70%;
-            margin: 0 0 20px 0;
+            margin: 0 0 40px 0;
         
-                & hr{
+                hr{
                     height: 3px;
                     background-color: $color-2;
                     border: none;
                 }
+                .hr-2 {
+                    height: 2.5px;
+                }
+        }
+        .formation {
+            line-height: 35px;
+
+            .date {
+                font-weight: bold;
+                border: 1px solid $color-1;
+                padding: 5px 20px;
+                margin-right: 20px;
+            }
+            .formation-text-container {
+                display: flex;
+            }
+            p {
+                font-weight: bold;
+            }
         }
     }
     
