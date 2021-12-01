@@ -102,6 +102,19 @@ body {
             }
         }
     }
+    .soft-skills-container {
+        color: white;
+
+        .text-soft-skills {
+            display: flex;
+            flex-direction: column;
+            margin: 0 23px;
+
+            .text-skills-paragraph {
+                margin: 5px 0;
+            }
+        }
+    }
 }
 .experience-container {
     width: 70%;
@@ -135,11 +148,38 @@ body {
         }
     }
     .formation-experience-container {
-        width: 100%;
+        width: 90%;
+        margin: 30px;
+
+        .experiences {
+
+            span {
+                font-weight: bold;
+            }
+            p {
+                margin: 20px 40px;
+            }
+            .text-container {
+                display: flex;
+                position: relative;
+
+                .date-2 {
+                    position: absolute;
+                    left: 0;
+                    top: 155px;
+                }
+                .experience-title {
+                    margin: 0 40px;
+                }
+                .experience-title-dev {
+                    margin: 20px 40px;
+                }
+            }
+        }
 
         .line_bellow{
             width: 70%;
-            margin: 0 0 20px 15px;
+            margin: 0 0 20px 0;
         
                 & hr{
                     height: 3px;
