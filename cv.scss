@@ -115,6 +115,20 @@ body {
             }
         }
     }
+    .hobbies-container {
+        color: white;
+        margin-bottom: 50px;
+
+        .text-hobbies {
+            display: flex;
+            flex-direction: column;
+            margin: 0 23px;
+
+            .text-hobbies-paragraph {
+                margin: 5px 0;
+            }
+        }
+    }
 }
 .experience-container {
     width: 70%;
@@ -152,6 +166,7 @@ body {
         margin: 30px;
 
         .experiences {
+            margin-top: 40px;
 
             span {
                 font-weight: bold;
@@ -173,7 +188,7 @@ body {
                 .date-2 {
                     position: absolute;
                     left: 0;
-                    top: 182px;
+                    top: 180px;
                 }
                 .experience-title {
                     margin: 0 40px;
@@ -193,12 +208,12 @@ body {
                     background-color: $color-2;
                     border: none;
                 }
-                .hr-2 {
+                .hr-2, .hr-3 {
                     height: 2.5px;
                 }
         }
         .formation {
-            line-height: 35px;
+            line-height: 40px;
 
             .date {
                 font-weight: bold;
@@ -212,6 +227,10 @@ body {
             p {
                 font-weight: bold;
             }
+        }
+        .languages {
+            line-height: 30px;
+            margin-top: 40px;
         }
     }
     

@@ -145,6 +145,26 @@ body {
   margin: 5px 0;
 }
 
+.profil-skills-container .hobbies-container {
+  color: white;
+  margin-bottom: 50px;
+}
+
+.profil-skills-container .hobbies-container .text-hobbies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 23px;
+}
+
+.profil-skills-container .hobbies-container .text-hobbies .text-hobbies-paragraph {
+  margin: 5px 0;
+}
+
 .experience-container {
   width: 70%;
 }
@@ -196,6 +216,10 @@ body {
   margin: 30px;
 }
 
+.experience-container .formation-experience-container .experiences {
+  margin-top: 40px;
+}
+
 .experience-container .formation-experience-container .experiences span {
   font-weight: bold;
 }
@@ -220,7 +244,7 @@ body {
 .experience-container .formation-experience-container .experiences .text-container .date-2 {
   position: absolute;
   left: 0;
-  top: 182px;
+  top: 180px;
 }
 
 .experience-container .formation-experience-container .experiences .text-container .experience-title {
@@ -242,12 +266,12 @@ body {
   border: none;
 }
 
-.experience-container .formation-experience-container .line_bellow .hr-2 {
+.experience-container .formation-experience-container .line_bellow .hr-2, .experience-container .formation-experience-container .line_bellow .hr-3 {
   height: 2.5px;
 }
 
 .experience-container .formation-experience-container .formation {
-  line-height: 35px;
+  line-height: 40px;
 }
 
 .experience-container .formation-experience-container .formation .date {
@@ -265,4 +289,9 @@ body {
 
 .experience-container .formation-experience-container .formation p {
   font-weight: bold;
+}
+
+.experience-container .formation-experience-container .languages {
+  line-height: 30px;
+  margin-top: 40px;
 }
