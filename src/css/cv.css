@@ -5,15 +5,17 @@ body {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
+  font-size: 18px;
 }
 
 .profil-skills-container {
-  width: 30%;
+  width: 35%;
   background-color: #2b2a30;
 }
 
 .profil-skills-container .img-container {
-  width: 70%;
+  width: 65%;
+  height: 280px;
   border-radius: 50%;
   overflow: hidden;
   border: 2px solid black;
@@ -41,7 +43,6 @@ body {
           flex-direction: column;
   color: white;
   margin: 10px 22px;
-  font-size: 16px;
 }
 
 .profil-skills-container .icon {
@@ -80,7 +81,6 @@ body {
 }
 
 .profil-skills-container .languages-container .html span, .profil-skills-container .languages-container .css span, .profil-skills-container .languages-container .sass span, .profil-skills-container .languages-container .js span, .profil-skills-container .languages-container .vue span, .profil-skills-container .languages-container .react span, .profil-skills-container .languages-container .node span {
-  font-size: 16px;
   font-weight: 400;
 }
 
