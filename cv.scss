@@ -64,17 +64,17 @@ body {
                 font-weight: 400;
             }
         }
-        .html, .css {
+        .html, .css, .sass {
             .dot-1, .dot-2, .dot-3, .dot-4{
                 color: $color-2;
             }
         }
-        .sass, .js, .node {
+        .react, .js, .node {
             .dot-1, .dot-2, .dot-3{
                 color: $color-2;
             }
         }
-        .vue, .react {
+        .vue{
             .dot-1, .dot-2{
                 color: $color-2;
             }
