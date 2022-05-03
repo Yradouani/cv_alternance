@@ -169,8 +169,11 @@ body {
         width: 90%;
         margin: 30px;
 
+        .presentation {
+            margin-top: 50px;
+        }
         .experiences {
-            margin-top: 40px;
+            margin-top: 50px;
 
             span {
                 font-weight: bold;
@@ -217,7 +220,7 @@ body {
                 }
         }
         .formation {
-            line-height: 40px;
+            line-height: 50px;
 
             .date {
                 font-weight: bold;
