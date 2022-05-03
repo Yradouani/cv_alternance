@@ -54,7 +54,7 @@ body {
     .languages-container {
         color: white;
 
-        .html, .css, .sass, .js, .vue, .react, .node {
+        .html, .css, .sass, .js, .vue, .react, .node, .python, .sql, .java {
             margin: 5px 23px;
             display: flex;
             justify-content: space-between;
@@ -69,13 +69,18 @@ body {
                 color: $color-2;
             }
         }
-        .react, .js, .node {
+        .react, .js, .node, .python, .sql {
             .dot-1, .dot-2, .dot-3{
                 color: $color-2;
             }
         }
         .vue{
             .dot-1, .dot-2{
+                color: $color-2;
+            }
+        }
+        .java{
+            .dot-1{
                 color: $color-2;
             }
         }
@@ -187,7 +192,7 @@ body {
                 .date-2 {
                     position: absolute;
                     left: 0;
-                    top: 180px;
+                    top: 155px;
                 }
                 .experience-title {
                     margin: 0 40px;

@@ -69,7 +69,7 @@ body {
   color: white;
 }
 
-.profil-skills-container .languages-container .html, .profil-skills-container .languages-container .css, .profil-skills-container .languages-container .sass, .profil-skills-container .languages-container .js, .profil-skills-container .languages-container .vue, .profil-skills-container .languages-container .react, .profil-skills-container .languages-container .node {
+.profil-skills-container .languages-container .html, .profil-skills-container .languages-container .css, .profil-skills-container .languages-container .sass, .profil-skills-container .languages-container .js, .profil-skills-container .languages-container .vue, .profil-skills-container .languages-container .react, .profil-skills-container .languages-container .node, .profil-skills-container .languages-container .python, .profil-skills-container .languages-container .sql, .profil-skills-container .languages-container .java {
   margin: 5px 23px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -80,7 +80,7 @@ body {
   width: 90%;
 }
 
-.profil-skills-container .languages-container .html span, .profil-skills-container .languages-container .css span, .profil-skills-container .languages-container .sass span, .profil-skills-container .languages-container .js span, .profil-skills-container .languages-container .vue span, .profil-skills-container .languages-container .react span, .profil-skills-container .languages-container .node span {
+.profil-skills-container .languages-container .html span, .profil-skills-container .languages-container .css span, .profil-skills-container .languages-container .sass span, .profil-skills-container .languages-container .js span, .profil-skills-container .languages-container .vue span, .profil-skills-container .languages-container .react span, .profil-skills-container .languages-container .node span, .profil-skills-container .languages-container .python span, .profil-skills-container .languages-container .sql span, .profil-skills-container .languages-container .java span {
   font-weight: 400;
 }
 
@@ -88,11 +88,15 @@ body {
   color: #f3d59d;
 }
 
-.profil-skills-container .languages-container .react .dot-1, .profil-skills-container .languages-container .react .dot-2, .profil-skills-container .languages-container .react .dot-3, .profil-skills-container .languages-container .js .dot-1, .profil-skills-container .languages-container .js .dot-2, .profil-skills-container .languages-container .js .dot-3, .profil-skills-container .languages-container .node .dot-1, .profil-skills-container .languages-container .node .dot-2, .profil-skills-container .languages-container .node .dot-3 {
+.profil-skills-container .languages-container .react .dot-1, .profil-skills-container .languages-container .react .dot-2, .profil-skills-container .languages-container .react .dot-3, .profil-skills-container .languages-container .js .dot-1, .profil-skills-container .languages-container .js .dot-2, .profil-skills-container .languages-container .js .dot-3, .profil-skills-container .languages-container .node .dot-1, .profil-skills-container .languages-container .node .dot-2, .profil-skills-container .languages-container .node .dot-3, .profil-skills-container .languages-container .python .dot-1, .profil-skills-container .languages-container .python .dot-2, .profil-skills-container .languages-container .python .dot-3, .profil-skills-container .languages-container .sql .dot-1, .profil-skills-container .languages-container .sql .dot-2, .profil-skills-container .languages-container .sql .dot-3 {
   color: #f3d59d;
 }
 
 .profil-skills-container .languages-container .vue .dot-1, .profil-skills-container .languages-container .vue .dot-2 {
+  color: #f3d59d;
+}
+
+.profil-skills-container .languages-container .java .dot-1 {
   color: #f3d59d;
 }
 
@@ -244,7 +248,7 @@ body {
 .experience-container .formation-experience-container .experiences .text-container .date-2 {
   position: absolute;
   left: 0;
-  top: 180px;
+  top: 155px;
 }
 
 .experience-container .formation-experience-container .experiences .text-container .experience-title {
@@ -295,3 +299,4 @@ body {
   line-height: 30px;
   margin-top: 40px;
 }
+/*# sourceMappingURL=cv.css.map */
