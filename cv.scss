@@ -165,6 +165,9 @@ body {
             font-size: 20px;
         }
     }
+    .experience_block {
+        margin-left: 50px;
+    }
     .formation-experience-container {
         width: 90%;
         margin: 30px;
@@ -192,10 +195,15 @@ body {
                         
                     }
                 }
+                .date-1 {
+                    position: absolute;
+                    left: 0;
+                    top: 100px;
+                }
                 .date-2 {
                     position: absolute;
                     left: 0;
-                    top: 155px;
+                    top: 270px;
                 }
                 .experience-title {
                     margin: 0 40px;
