@@ -220,8 +220,12 @@ body {
   margin: 30px;
 }
 
+.experience-container .formation-experience-container .presentation {
+  margin-top: 50px;
+}
+
 .experience-container .formation-experience-container .experiences {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .experience-container .formation-experience-container .experiences span {
@@ -238,6 +242,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .experience-container .formation-experience-container .experiences .text-container .date span {
@@ -245,10 +251,22 @@ body {
   padding: 5px 20px;
 }
 
+.experience-container .formation-experience-container .experiences .text-container .date-1 {
+  position: absolute;
+  left: 0;
+  top: -10px;
+}
+
 .experience-container .formation-experience-container .experiences .text-container .date-2 {
   position: absolute;
   left: 0;
-  top: 155px;
+  top: 100px;
+}
+
+.experience-container .formation-experience-container .experiences .text-container .date-3 {
+  position: absolute;
+  left: 0;
+  top: 265px;
 }
 
 .experience-container .formation-experience-container .experiences .text-container .experience-title {
@@ -275,7 +293,7 @@ body {
 }
 
 .experience-container .formation-experience-container .formation {
-  line-height: 40px;
+  line-height: 50px;
 }
 
 .experience-container .formation-experience-container .formation .date {

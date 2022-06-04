@@ -185,17 +185,30 @@ body {
             .text-container {
                 display: flex;
                 position: relative;
+                justify-content: space-around;
                 .date {
+                    // margin-right: 100px;
+                   
                     span {
                         border: 1px solid $color-1;
                         padding: 5px 20px;
                         
                     }
                 }
+                .date-1 {
+                    position: absolute;
+                    left: 0;
+                    top: -10px;
+                }
                 .date-2 {
                     position: absolute;
                     left: 0;
-                    top: 155px;
+                    top: 100px;
+                }
+                .date-3 {
+                    position: absolute;
+                    left: 0;
+                    top: 265px;
                 }
                 .experience-title {
                     margin: 0 40px;
