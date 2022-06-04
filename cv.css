@@ -215,10 +215,6 @@ body {
   font-size: 20px;
 }
 
-.experience-container .experience_block {
-  margin-left: 50px;
-}
-
 .experience-container .formation-experience-container {
   width: 90%;
   margin: 30px;
@@ -258,17 +254,12 @@ body {
 .experience-container .formation-experience-container .experiences .text-container .date-1 {
   position: absolute;
   left: 0;
-<<<<<<< HEAD
   top: -10px;
-=======
-  top: 100px;
->>>>>>> bd17b74cd5c08556917c952cc96dea8c36455ae4
 }
 
 .experience-container .formation-experience-container .experiences .text-container .date-2 {
   position: absolute;
   left: 0;
-<<<<<<< HEAD
   top: 100px;
 }
 
@@ -276,9 +267,6 @@ body {
   position: absolute;
   left: 0;
   top: 265px;
-=======
-  top: 270px;
->>>>>>> bd17b74cd5c08556917c952cc96dea8c36455ae4
 }
 
 .experience-container .formation-experience-container .experiences .text-container .experience-title {
