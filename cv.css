@@ -246,9 +246,14 @@ body {
       justify-content: space-around;
 }
 
+.experience-container .formation-experience-container .experiences .text-container .date {
+  margin-right: 50px;
+}
+
 .experience-container .formation-experience-container .experiences .text-container .date span {
   border: 1px solid #2b2a30;
   padding: 5px 20px;
+  margin-right: 30px;
 }
 
 .experience-container .formation-experience-container .experiences .text-container .date-1 {
