@@ -1,6 +1,4 @@
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   margin: 0;
@@ -34,13 +32,8 @@ body {
 }
 
 .profil-skills-container .icon-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   color: white;
   margin: 10px 22px;
 }
@@ -50,8 +43,6 @@ body {
 }
 
 .profil-skills-container i {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -69,30 +60,70 @@ body {
   color: white;
 }
 
-.profil-skills-container .languages-container .html, .profil-skills-container .languages-container .css, .profil-skills-container .languages-container .sass, .profil-skills-container .languages-container .js, .profil-skills-container .languages-container .vue, .profil-skills-container .languages-container .react, .profil-skills-container .languages-container .node, .profil-skills-container .languages-container .python, .profil-skills-container .languages-container .sql, .profil-skills-container .languages-container .java {
+.profil-skills-container .languages-container .html,
+.profil-skills-container .languages-container .css,
+.profil-skills-container .languages-container .sass,
+.profil-skills-container .languages-container .js,
+.profil-skills-container .languages-container .vue,
+.profil-skills-container .languages-container .react,
+.profil-skills-container .languages-container .node,
+.profil-skills-container .languages-container .python,
+.profil-skills-container .languages-container .sql,
+.profil-skills-container .languages-container .java {
   margin: 5px 23px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   width: 90%;
 }
 
-.profil-skills-container .languages-container .html span, .profil-skills-container .languages-container .css span, .profil-skills-container .languages-container .sass span, .profil-skills-container .languages-container .js span, .profil-skills-container .languages-container .vue span, .profil-skills-container .languages-container .react span, .profil-skills-container .languages-container .node span, .profil-skills-container .languages-container .python span, .profil-skills-container .languages-container .sql span, .profil-skills-container .languages-container .java span {
+.profil-skills-container .languages-container .html span,
+.profil-skills-container .languages-container .css span,
+.profil-skills-container .languages-container .sass span,
+.profil-skills-container .languages-container .js span,
+.profil-skills-container .languages-container .vue span,
+.profil-skills-container .languages-container .react span,
+.profil-skills-container .languages-container .node span,
+.profil-skills-container .languages-container .python span,
+.profil-skills-container .languages-container .sql span,
+.profil-skills-container .languages-container .java span {
   font-weight: 400;
 }
 
-.profil-skills-container .languages-container .html .dot-1, .profil-skills-container .languages-container .html .dot-2, .profil-skills-container .languages-container .html .dot-3, .profil-skills-container .languages-container .html .dot-4, .profil-skills-container .languages-container .css .dot-1, .profil-skills-container .languages-container .css .dot-2, .profil-skills-container .languages-container .css .dot-3, .profil-skills-container .languages-container .css .dot-4, .profil-skills-container .languages-container .sass .dot-1, .profil-skills-container .languages-container .sass .dot-2, .profil-skills-container .languages-container .sass .dot-3, .profil-skills-container .languages-container .sass .dot-4 {
+.profil-skills-container .languages-container .html .dot-1,
+.profil-skills-container .languages-container .html .dot-2,
+.profil-skills-container .languages-container .html .dot-3,
+.profil-skills-container .languages-container .html .dot-4,
+.profil-skills-container .languages-container .css .dot-1,
+.profil-skills-container .languages-container .css .dot-2,
+.profil-skills-container .languages-container .css .dot-3,
+.profil-skills-container .languages-container .css .dot-4,
+.profil-skills-container .languages-container .sass .dot-1,
+.profil-skills-container .languages-container .sass .dot-2,
+.profil-skills-container .languages-container .sass .dot-3,
+.profil-skills-container .languages-container .sass .dot-4 {
   color: #f3d59d;
 }
 
-.profil-skills-container .languages-container .react .dot-1, .profil-skills-container .languages-container .react .dot-2, .profil-skills-container .languages-container .react .dot-3, .profil-skills-container .languages-container .js .dot-1, .profil-skills-container .languages-container .js .dot-2, .profil-skills-container .languages-container .js .dot-3, .profil-skills-container .languages-container .node .dot-1, .profil-skills-container .languages-container .node .dot-2, .profil-skills-container .languages-container .node .dot-3, .profil-skills-container .languages-container .python .dot-1, .profil-skills-container .languages-container .python .dot-2, .profil-skills-container .languages-container .python .dot-3, .profil-skills-container .languages-container .sql .dot-1, .profil-skills-container .languages-container .sql .dot-2, .profil-skills-container .languages-container .sql .dot-3 {
+.profil-skills-container .languages-container .react .dot-1,
+.profil-skills-container .languages-container .react .dot-2,
+.profil-skills-container .languages-container .react .dot-3,
+.profil-skills-container .languages-container .js .dot-1,
+.profil-skills-container .languages-container .js .dot-2,
+.profil-skills-container .languages-container .js .dot-3,
+.profil-skills-container .languages-container .node .dot-1,
+.profil-skills-container .languages-container .node .dot-2,
+.profil-skills-container .languages-container .node .dot-3,
+.profil-skills-container .languages-container .python .dot-1,
+.profil-skills-container .languages-container .python .dot-2,
+.profil-skills-container .languages-container .python .dot-3,
+.profil-skills-container .languages-container .sql .dot-1,
+.profil-skills-container .languages-container .sql .dot-2,
+.profil-skills-container .languages-container .sql .dot-3 {
   color: #f3d59d;
 }
 
-.profil-skills-container .languages-container .vue .dot-1, .profil-skills-container .languages-container .vue .dot-2 {
+.profil-skills-container .languages-container .vue .dot-1,
+.profil-skills-container .languages-container .vue .dot-2 {
   color: #f3d59d;
 }
 
@@ -101,8 +132,6 @@ body {
 }
 
 .profil-skills-container .languages-container .dot-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 0 20px 0 10px;
 }
@@ -116,13 +145,8 @@ body {
 }
 
 .profil-skills-container .skills-container .text-skills {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin: 0 23px;
 }
 
@@ -135,13 +159,8 @@ body {
 }
 
 .profil-skills-container .soft-skills-container .text-soft-skills {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin: 0 23px;
 }
 
@@ -155,17 +174,27 @@ body {
 }
 
 .profil-skills-container .hobbies-container .text-hobbies {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin: 0 23px;
 }
 
 .profil-skills-container .hobbies-container .text-hobbies .text-hobbies-paragraph {
+  margin: 5px 0;
+}
+
+.profil-skills-container .lang-container {
+  color: white;
+  margin-bottom: 50px;
+}
+
+.profil-skills-container .lang-container .text-lang {
+  display: flex;
+  flex-direction: column;
+  margin: 0 23px;
+}
+
+.profil-skills-container .lang-container .text-lang .text-lang-paragraph {
   margin: 5px 0;
 }
 
@@ -177,15 +206,9 @@ body {
   background-color: #f3d59d;
   width: 100%;
   height: 200px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   position: relative;
 }
 
@@ -193,15 +216,9 @@ body {
   border: 2px solid black;
   padding: 25px 40px;
   width: 70%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   z-index: 1;
   position: relative;
 }
@@ -238,12 +255,9 @@ body {
 }
 
 .experience-container .formation-experience-container .experiences .text-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .experience-container .formation-experience-container .experiences .text-container .date {
@@ -293,7 +307,8 @@ body {
   border: none;
 }
 
-.experience-container .formation-experience-container .line_bellow .hr-2, .experience-container .formation-experience-container .line_bellow .hr-3 {
+.experience-container .formation-experience-container .line_bellow .hr-2,
+.experience-container .formation-experience-container .line_bellow .hr-3 {
   height: 2.5px;
 }
 
@@ -309,8 +324,6 @@ body {
 }
 
 .experience-container .formation-experience-container .formation .formation-text-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -318,8 +331,12 @@ body {
   font-weight: bold;
 }
 
-.experience-container .formation-experience-container .languages {
+.experience-container .formation-experience-container .certification {
   line-height: 30px;
   margin-top: 40px;
+}
+
+.experience-container .formation-experience-container .certification h2 {
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=cv.css.map */

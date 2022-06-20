@@ -21,27 +21,33 @@ body {
         border: 2px solid black;
         margin: 20px auto;
     }
+
     img {
         width: 100%;
     }
+
     h3 {
         color: $color-2;
         padding: 10px;
         border: 2px solid $color-2;
         margin: 20px;
     }
+
     .icon-container {
         display: flex;
         flex-direction: column;
         color: white;
         margin: 10px 22px;
     }
+
     .icon {
         margin: 5px 0;
     }
+
     i {
         display: flex;
     }
+
     .profil-information {
         margin: 0 0 0 15px;
         font-weight: 400;
@@ -51,10 +57,20 @@ body {
             color: inherit;
         }
     }
+
     .languages-container {
         color: white;
 
-        .html, .css, .sass, .js, .vue, .react, .node, .python, .sql, .java {
+        .html,
+        .css,
+        .sass,
+        .js,
+        .vue,
+        .react,
+        .node,
+        .python,
+        .sql,
+        .java {
             margin: 5px 23px;
             display: flex;
             justify-content: space-between;
@@ -64,26 +80,46 @@ body {
                 font-weight: 400;
             }
         }
-        .html, .css, .sass {
-            .dot-1, .dot-2, .dot-3, .dot-4{
+
+        .html,
+        .css,
+        .sass {
+
+            .dot-1,
+            .dot-2,
+            .dot-3,
+            .dot-4 {
                 color: $color-2;
             }
         }
-        .react, .js, .node, .python, .sql {
-            .dot-1, .dot-2, .dot-3{
+
+        .react,
+        .js,
+        .node,
+        .python,
+        .sql {
+
+            .dot-1,
+            .dot-2,
+            .dot-3 {
                 color: $color-2;
             }
         }
-        .vue{
-            .dot-1, .dot-2{
+
+        .vue {
+
+            .dot-1,
+            .dot-2 {
                 color: $color-2;
             }
         }
-        .java{
-            .dot-1{
+
+        .java {
+            .dot-1 {
                 color: $color-2;
             }
         }
+
         .dot-container {
             display: flex;
             margin: 0 20px 0 10px;
@@ -93,6 +129,7 @@ body {
             }
         }
     }
+
     .skills-container {
         color: white;
 
@@ -106,6 +143,7 @@ body {
             }
         }
     }
+
     .soft-skills-container {
         color: white;
 
@@ -119,6 +157,7 @@ body {
             }
         }
     }
+
     .hobbies-container {
         color: white;
         margin-bottom: 50px;
@@ -133,7 +172,23 @@ body {
             }
         }
     }
+
+    .lang-container {
+        color: white;
+        margin-bottom: 50px;
+
+        .text-lang {
+            display: flex;
+            flex-direction: column;
+            margin: 0 23px;
+
+            .text-lang-paragraph {
+                margin: 5px 0;
+            }
+        }
+    }
 }
+
 .experience-container {
     width: 70%;
 
@@ -145,7 +200,7 @@ body {
         justify-content: center;
         align-items: center;
         position: relative;
-    
+
         h1 {
             border: 2px solid black;
             padding: 25px 40px;
@@ -156,15 +211,17 @@ body {
             z-index: 1;
             position: relative;
         }
+
         .dev-web {
             position: absolute;
             z-index: 2;
-            bottom:44px;
+            bottom: 44px;
             background-color: $color-2;
             padding: 0 15px;
             font-size: 20px;
         }
     }
+
     .formation-experience-container {
         width: 90%;
         margin: 30px;
@@ -172,67 +229,80 @@ body {
         .presentation {
             margin-top: 50px;
         }
+
         .experiences {
             margin-top: 50px;
 
             span {
                 font-weight: bold;
             }
+
             p {
                 margin: 20px 40px;
                 line-height: 25px;
             }
+
             .text-container {
                 display: flex;
                 position: relative;
                 justify-content: space-around;
+
                 .date {
                     // margin-right: 100px;
-                   margin-right: 100px;
+                    margin-right: 100px;
+
                     span {
                         border: 1px solid $color-1;
                         padding: 5px 20px;
                         margin-right: 30px;
-                        
+
                     }
                 }
+
                 .date-1 {
                     position: absolute;
                     left: 0;
                     top: -10px;
                 }
+
                 .date-2 {
                     position: absolute;
                     left: 0;
                     top: 100px;
                 }
+
                 .date-3 {
                     position: absolute;
                     left: 0;
                     top: 265px;
                 }
+
                 .experience-title {
                     margin: 0 40px;
                 }
+
                 .experience-title-dev {
                     margin: 20px 40px;
                 }
             }
         }
 
-        .line_bellow{
+        .line_bellow {
             width: 70%;
             margin: 0 0 40px 0;
-        
-                hr{
-                    height: 3px;
-                    background-color: $color-2;
-                    border: none;
-                }
-                .hr-2, .hr-3 {
-                    height: 2.5px;
-                }
+
+            hr {
+                height: 3px;
+                background-color: $color-2;
+                border: none;
+            }
+
+            .hr-2,
+            .hr-3 {
+                height: 2.5px;
+            }
         }
+
         .formation {
             line-height: 50px;
 
@@ -242,18 +312,25 @@ body {
                 padding: 5px 20px;
                 margin-right: 20px;
             }
+
             .formation-text-container {
                 display: flex;
             }
+
             p {
                 font-weight: bold;
             }
         }
-        .languages {
+
+        .certification {
             line-height: 30px;
             margin-top: 40px;
+
+            h2 {
+                text-transform: uppercase;
+            }
         }
     }
-    
-    
+
+
 }
