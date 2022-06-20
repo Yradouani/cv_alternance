@@ -12,6 +12,7 @@ body {
 .profil-skills-container {
     width: 35%;
     background-color: $color-1;
+    padding-top: 180px;
 
     .img-container {
         width: 65%;
@@ -160,7 +161,6 @@ body {
 
     .hobbies-container {
         color: white;
-        margin-bottom: 50px;
 
         .text-hobbies {
             display: flex;

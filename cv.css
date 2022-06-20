@@ -9,6 +9,7 @@ body {
 .profil-skills-container {
   width: 35%;
   background-color: #2b2a30;
+  padding-top: 180px;
 }
 
 .profil-skills-container .img-container {
@@ -170,7 +171,6 @@ body {
 
 .profil-skills-container .hobbies-container {
   color: white;
-  margin-bottom: 50px;
 }
 
 .profil-skills-container .hobbies-container .text-hobbies {
