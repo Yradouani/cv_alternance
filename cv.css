@@ -238,11 +238,11 @@ body {
 }
 
 .experience-container .formation-experience-container .presentation {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .experience-container .formation-experience-container .experiences {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .experience-container .formation-experience-container .experiences span {
@@ -319,7 +319,7 @@ body {
 }
 
 .experience-container .formation-experience-container .formation {
-  line-height: 50px;
+  line-height: 40px;
 }
 
 .experience-container .formation-experience-container .formation .date {
