@@ -6,6 +6,15 @@ body {
   font-size: 18px;
 }
 
+.icon_qr-code_container {
+  display: flex;
+}
+
+.icon_qr-code_container .qr_code {
+  margin: 0 auto;
+  width: 30%;
+}
+
 .profil-skills-container {
   width: 35%;
   background-color: #2b2a30;
@@ -40,6 +49,7 @@ body {
 
 .profil-skills-container .icon {
   margin: 5px 0;
+  display: flex;
 }
 
 .profil-skills-container i {
@@ -49,6 +59,8 @@ body {
 .profil-skills-container .profil-information {
   margin: 0 0 0 15px;
   font-weight: 400;
+  font-size: 17px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 .profil-skills-container .profil-information a {
