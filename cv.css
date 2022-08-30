@@ -135,11 +135,8 @@ body {
 }
 
 .profil-skills-container .languages-container .vue .dot-1,
-.profil-skills-container .languages-container .vue .dot-2 {
-  color: #f3d59d;
-}
-
-.profil-skills-container .languages-container .java .dot-1 {
+.profil-skills-container .languages-container .vue .dot-2, .profil-skills-container .languages-container .java .dot-1,
+.profil-skills-container .languages-container .java .dot-2 {
   color: #f3d59d;
 }
 
