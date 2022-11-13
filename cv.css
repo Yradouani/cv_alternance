@@ -135,7 +135,8 @@ body {
 }
 
 .profil-skills-container .languages-container .vue .dot-1,
-.profil-skills-container .languages-container .vue .dot-2, .profil-skills-container .languages-container .java .dot-1,
+.profil-skills-container .languages-container .vue .dot-2,
+.profil-skills-container .languages-container .java .dot-1,
 .profil-skills-container .languages-container .java .dot-2 {
   color: #f3d59d;
 }
@@ -234,7 +235,7 @@ body {
 .experience-container .header-container .dev-web {
   position: absolute;
   z-index: 2;
-  bottom: 35px;
+  bottom: 55px;
   background-color: #f3d59d;
   padding: 0 15px;
   font-size: 20px;
