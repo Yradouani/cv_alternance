@@ -119,7 +119,8 @@ body {
             }
         }
 
-        .vue, .java {
+        .vue,
+        .java {
 
             .dot-1,
             .dot-2 {
@@ -227,7 +228,7 @@ body {
         .dev-web {
             position: absolute;
             z-index: 2;
-            bottom: 35px;
+            bottom: 55px;
             background-color: $color-2;
             padding: 0 15px;
             font-size: 20px;
