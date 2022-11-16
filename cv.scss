@@ -1,5 +1,7 @@
 $color-1 : rgb(43, 42, 48);
-$color-2 : rgb(243, 213, 157);
+$color-2 : rgb(244, 184, 72);
+
+// rgb(243, 213, 157)
 
 body {
     display: flex;
@@ -216,7 +218,7 @@ body {
 
         h1 {
             border: 2px solid black;
-            padding: 35px 40px;
+            padding: 50px 40px 60px;
             width: 70%;
             display: flex;
             justify-content: center;
@@ -228,7 +230,7 @@ body {
         .dev-web {
             position: absolute;
             z-index: 2;
-            bottom: 45px;
+            bottom: 35px;
             background-color: $color-2;
             padding: 0 15px;
             font-size: 20px;

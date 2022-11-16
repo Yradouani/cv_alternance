@@ -34,9 +34,9 @@ body {
 }
 
 .profil-skills-container h3 {
-  color: #f3d59d;
+  color: #f4b848;
   padding: 10px;
-  border: 2px solid #f3d59d;
+  border: 2px solid #f4b848;
   margin: 20px;
 }
 
@@ -113,7 +113,7 @@ body {
 .profil-skills-container .languages-container .sass .dot-2,
 .profil-skills-container .languages-container .sass .dot-3,
 .profil-skills-container .languages-container .sass .dot-4 {
-  color: #f3d59d;
+  color: #f4b848;
 }
 
 .profil-skills-container .languages-container .react .dot-1,
@@ -131,14 +131,14 @@ body {
 .profil-skills-container .languages-container .sql .dot-1,
 .profil-skills-container .languages-container .sql .dot-2,
 .profil-skills-container .languages-container .sql .dot-3 {
-  color: #f3d59d;
+  color: #f4b848;
 }
 
 .profil-skills-container .languages-container .vue .dot-1,
 .profil-skills-container .languages-container .vue .dot-2,
 .profil-skills-container .languages-container .java .dot-1,
 .profil-skills-container .languages-container .java .dot-2 {
-  color: #f3d59d;
+  color: #f4b848;
 }
 
 .profil-skills-container .languages-container .dot-container {
@@ -212,7 +212,7 @@ body {
 }
 
 .experience-container .header-container {
-  background-color: #f3d59d;
+  background-color: #f4b848;
   width: 100%;
   height: 250px;
   display: flex;
@@ -223,7 +223,7 @@ body {
 
 .experience-container .header-container h1 {
   border: 2px solid black;
-  padding: 35px 40px;
+  padding: 50px 40px 60px;
   width: 70%;
   display: flex;
   justify-content: center;
@@ -235,8 +235,8 @@ body {
 .experience-container .header-container .dev-web {
   position: absolute;
   z-index: 2;
-  bottom: 45px;
-  background-color: #f3d59d;
+  bottom: 35px;
+  background-color: #f4b848;
   padding: 0 15px;
   font-size: 20px;
   text-align: center;
@@ -319,7 +319,7 @@ body {
 
 .experience-container .formation-experience-container .line_bellow hr {
   height: 3px;
-  background-color: #f3d59d;
+  background-color: #f4b848;
   border: none;
 }
 
