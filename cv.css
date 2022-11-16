@@ -260,7 +260,7 @@ body {
 }
 
 .experience-container .formation-experience-container .experiences p {
-  margin: 10px 40px 20px 40px;
+  margin: 10px 0px 20px 170px;
   line-height: 25px;
 }
 
@@ -271,7 +271,9 @@ body {
 }
 
 .experience-container .formation-experience-container .experiences .text-container .date {
-  margin-right: 100px;
+  margin-right: 70px;
+  border: 2px solid #f4b848;
+  padding: 5px 10px;
 }
 
 .experience-container .formation-experience-container .experiences .text-container .date span {
@@ -305,11 +307,15 @@ body {
 }
 
 .experience-container .formation-experience-container .experiences .text-container .experience-title {
-  margin: 0 40px;
+  margin: 0 20px;
+}
+
+.experience-container .formation-experience-container .experiences .text-container .experience-title .ecommerce {
+  margin-right: 40px;
 }
 
 .experience-container .formation-experience-container .experiences .text-container .experience-title-dev {
-  margin: 20px 40px;
+  margin: 20px;
 }
 
 .experience-container .formation-experience-container .line_bellow {

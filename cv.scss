@@ -254,7 +254,7 @@ body {
             }
 
             p {
-                margin: 10px 40px 20px 40px;
+                margin: 10px 0px 20px 170px;
                 line-height: 25px;
             }
 
@@ -269,7 +269,9 @@ body {
 
                 .date {
                     // margin-right: 100px;
-                    margin-right: 100px;
+                    margin-right: 70px;
+                    border: 2px solid $color-2;
+                    padding: 5px 10px;
 
                     span {
                         border: 1px solid $color-1;
@@ -304,11 +306,15 @@ body {
                 }
 
                 .experience-title {
-                    margin: 0 40px;
+                    margin: 0 20px;
+
+                    .ecommerce {
+                        margin-right: 40px;
+                    }
                 }
 
                 .experience-title-dev {
-                    margin: 20px 40px;
+                    margin: 20px;
                 }
             }
         }
