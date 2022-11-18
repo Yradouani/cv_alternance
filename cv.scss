@@ -261,14 +261,8 @@ body {
             .text-container {
                 display: flex;
                 position: relative;
-                justify-content: space-around;
-
-                // .experience-container {
-                //     margin-left: 15px;
-                // }
 
                 .date {
-                    // margin-right: 100px;
                     margin-right: 70px;
                     border: 2px solid $color-1;
                     padding: 5px 10px;
@@ -361,6 +355,14 @@ body {
             h2 {
                 text-transform: uppercase;
             }
+        }
+    }
+
+    .projects {
+        margin-left: 100px;
+
+        .strong {
+            font-weight: bold;
         }
     }
 

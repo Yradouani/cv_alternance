@@ -267,7 +267,6 @@ body {
 .experience-container .formation-experience-container .experiences .text-container {
   display: flex;
   position: relative;
-  justify-content: space-around;
 }
 
 .experience-container .formation-experience-container .experiences .text-container .date {
@@ -360,5 +359,13 @@ body {
 
 .experience-container .formation-experience-container .certification h2 {
   text-transform: uppercase;
+}
+
+.experience-container .projects {
+  margin-left: 100px;
+}
+
+.experience-container .projects .strong {
+  font-weight: bold;
 }
 /*# sourceMappingURL=cv.css.map */
