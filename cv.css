@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100;0,200;1,100&display=swap");
 body {
   display: flex;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -23,6 +24,21 @@ body {
 .profil-skills-container {
   width: 35%;
   background-color: #2b2a30;
+}
+
+.profil-skills-container .orange_container {
+  width: 100%;
+  height: 230px;
+  background: #2b2a30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profil-skills-container .orange_container h2 {
+  color: #f4b848;
+  font-family: 'Chivo Mono', monospace;
+  font-size: 40px;
 }
 
 .profil-skills-container .img-container {
@@ -235,15 +251,16 @@ body {
   align-items: center;
   z-index: 1;
   position: relative;
+  font-size: 26px;
 }
 
 .experience-container .header-container .dev-web {
   position: absolute;
   z-index: 2;
-  bottom: 35px;
+  bottom: 40px;
   background-color: #f4b848;
   padding: 0 15px;
-  font-size: 20px;
+  font-size: 21px;
   text-align: center;
 }
 

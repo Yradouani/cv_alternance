@@ -1,5 +1,6 @@
 $color-1 : rgb(43, 42, 48);
 $color-2 : rgb(244, 184, 72);
+ @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100;0,200;1,100&display=swap'); 
 
 // rgb(243, 213, 157)
 
@@ -29,6 +30,21 @@ body {
     width: 35%;
     background-color: $color-1;
     // padding-top: 180px;
+
+    .orange_container {
+        width: 100%;
+        height: 230px;
+        background: $color-1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            color: $color-2;
+            font-family: 'Chivo Mono', monospace;
+            font-size: 40px;
+        }
+    }
 
     .img-container {
         width: 65%;
@@ -230,15 +246,16 @@ body {
             align-items: center;
             z-index: 1;
             position: relative;
+            font-size: 26px;
         }
 
         .dev-web {
             position: absolute;
             z-index: 2;
-            bottom: 35px;
+            bottom: 40px;
             background-color: $color-2;
             padding: 0 15px;
-            font-size: 20px;
+            font-size: 21px;
             text-align: center;
         }
     }
