@@ -252,6 +252,17 @@ body {
   z-index: 1;
   position: relative;
   font-size: 26px;
+  flex-direction: column;
+}
+
+.experience-container .header-container h1 hr {
+  width: 80%;
+  color: #2b2a30;
+}
+
+.experience-container .header-container h1 span {
+  text-align: center;
+  font-size: 24px;
 }
 
 .experience-container .header-container .dev-web {
