@@ -17,7 +17,7 @@ body {
 }
 
 .icon_qr-code_container .qr_code {
-  margin: 0 auto;
+  margin: 0 25px 0 auto;
   width: 30%;
 }
 
