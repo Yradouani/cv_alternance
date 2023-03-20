@@ -268,7 +268,7 @@ body {
 .experience-container .header-container .dev-web {
   position: absolute;
   z-index: 2;
-  bottom: 40px;
+  bottom: 35px;
   background-color: #0097b2;
   padding: 0 15px;
   font-size: 21px;
